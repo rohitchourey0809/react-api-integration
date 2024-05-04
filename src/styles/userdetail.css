@@ -1,0 +1,40 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.user-details {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.user-details p {
+  margin: 0;
+  padding: 5px 0;
+}
+
+.user-details img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 10px;
+}
+
+.loading {
+  text-align: center;
+  font-style: italic;
+  color: #888;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  .user-details {
+    padding: 15px;
+  }
+}

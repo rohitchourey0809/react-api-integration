@@ -1,0 +1,50 @@
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 600px;
+    grid-template-columns: repeat(autofill, 1fr);
+  }
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  grid-column: span 2;
+}
+
+input[type="email"],
+input[type="password"],
+.submit {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.submit {
+  background-color: #2f4b69;
+  color: #e8dddd;
+  border: none;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #063363;
+}
+
+.error {
+  color: rgb(232, 119, 119);
+  grid-column: span 2;
+}
