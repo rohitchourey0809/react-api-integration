@@ -5,7 +5,6 @@ import LoginPage from "./components/LoginPage";
 import UserListPage from "./components/UserListPage";
 import CreateUserPage from "./components/CreateUserPage";
 import EditUserPage from "./components/EditUserPage";
-import "./styles/mainpage.css";
 
 function App() {
   return (
