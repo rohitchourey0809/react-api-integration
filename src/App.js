@@ -5,6 +5,7 @@ import LoginPage from "./components/LoginPage";
 import UserListPage from "./components/UserListPage";
 import CreateUserPage from "./components/CreateUserPage";
 import EditUserPage from "./components/EditUserPage";
+import "./styles/mainpage.css";
 
 function App() {
   return (
@@ -15,9 +16,9 @@ function App() {
             <li>
               <Link to="/login">Login</Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/users">User List</Link>
-            </li>
+            </li> */}
             <li>
               <Link to="/create-user">Create User</Link>
             </li>
